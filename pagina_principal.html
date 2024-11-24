@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Lambe-Malambe</title>
+    <style>
+ /*        *{
+            margin: 0;
+            padding: 0; 
+        }*/
+        header {
+            background-image: url("fotos/papel-de-parede-floral-em-aquarela-pintado-a-mao_52683-67104.png" );
+            color: hwb(302 39% 49% / 0.97);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+        header h1{
+            font-size: 35pt;
+            margin: 0px;
+            text-shadow: 4px 4px 4px rgba(214, 154, 202, 0.77);
+        }
+        fieldset{
+            border-color: transparent;
+            border-radius: 12px;
+        }
+        legend{
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: black;
+        }
+    </style>
+    <script>
+        function calcularpreç(){
+            var nquant = parseInt(document.getElementById('iquant').value);
+            total = nquant*50 ;
+            document.getElementById('iprec').value = total;
+        }
+    </script>
+</head>
+<body>
+    
+        <header>
+            <h1> Celeste`s shop</h1> 
+            <h3>Produtos e Comesticos</p>
+                <nav id="navlista">
+                        <li><a href="pagina_principal.html">Menu</a></li>
+                        <li><a href="contacte-me.html">Contacte-me</a></li>
+                </nav>
+        </header>
+        <fieldset>
+            <legend>Iogurte</legend>
+
+        <section oninput="calcularpreç();">
+                    <div id="coluna">
+                        <h3 class="texto" >Simples/Maracuja </h3>
+                        <picture class="foto1">
+                            <img src="fotos/foto1.png" alt="" height=120px">
+                        </picture>
+                        <div class="informaçao">
+                            <ul>
+                                <li>250 ml</li>
+                                <li> $50  </li>
+                                <li>querem comprar</li>
+                            </ul>
+                        </div>
+                        <p>Quantidade<input type="number" name="nquant" min="0" max="7" id="iquant" value="0"></p>
+                        <p>Preço total <input type="number" name="nprec" id="iprec" min="0" max="10" value="0"></p>
+                        <img src="fotos/shopping-cart_770521.png" alt=""> <button class="botao">
+                            adicionar ao carinho
+                        </button>
+                    </div>
+
+                    <div id="coluna2">
+                        <h3 class="texto">Simples/Chocolate</h3>
+                        <picture class="foto1">
+                            <img src="fotos/malanbe1.png" alt="" height=120px>
+                        </picture>
+                        <div class="informaçao">
+                            <ul>
+                                <li>500 ml</li>
+                                <li>$ 100</li>
+                                <li>querem comprar</li>
+                            </ul>
+                        </div>
+                        <p>Quantidade<input type="number" name="" min="0" max="7" id="" value="0"></p>
+                        <p>Preço total <input type="number" min="0" max="10" value="0"></p>
+                        <img src="fotos/shopping-cart_770521.png" alt=""><button class="botao">
+                            adicionar ao carinho
+                        </button>
+                    </div>
+
+                    <div id="coluna3">
+                        <h3 class="texto">Puro 0% de Adoçante</h3>
+                        <picture class="foto1">
+                            <img src="fotos/malanbe2.png" alt="" height=120px >
+                        </picture>
+                        <div class="informaçao">
+                            <ul>
+                                <li>500ml</li>
+                                <li>$ 125</li>
+                                <li>querem comprar</li>
+                            </ul>
+                        </div>
+                        <p>Quantidade<input type="number" name="" min="0" max="7" id="" value="0"></p>
+                        <p>Preço total <input type="number" min="0" max="10" value="0"></p>
+                        <img src="fotos/shopping-cart_770521.png" alt=""> <button class="botao">
+                            adicionar ao carinho
+                        </button>
+                    </div>
+                    <div id="coluna3">
+                        <h3 class="texto">Puro 0% de Adoçante</h3>
+                        <picture class="foto1">
+                            <img src="fotos/malanbe4.png" alt="" height=120px >
+                        </picture>
+                        <div class="informaçao">
+                            <ul>
+                                <li>500ml</li>
+                                <li>$ 125</li>
+                                <li>querem comprar</li>
+                            </ul>
+                        </div>
+                        <p>Quantidade<input type="number" name="" min="0" max="7" id="" value="0"></p>
+                        <p>Preço total <input type="number" min="0" max="10" value="0"></p>
+                        <img src="fotos/shopping-cart_770521.png" alt=""> <button class="botao">
+                            adicionar ao carinho
+                        </button>
+                    </div>
+                    <div id="coluna3">
+                        <h3 class="texto">Puro 0% de Adoçante</h3>
+                        <picture class="foto1">
+                            <img src="fotos/malambe3.png" alt="" height=120px >
+                        </picture>
+                        <div class="informaçao">
+                            <ul>
+                                <li>500ml</li>
+                                <li>$ 125</li>
+                                <li>querem comprar</li>
+                            </ul>
+                        </div>
+                        <p>Quantidade<input type="number" name="" min="0" max="7" id="" value="0"></p>
+                        <p>Preço total <input type="number" min="0" max="10" value="0"></p>
+                        <img src="fotos/shopping-cart_770521.png" alt=""> <button class="botao">
+                            adicionar ao carinho
+                        </button>
+                    </div>
+        </section>
+    </fieldset>
+    <fieldset>
+        <legend>Cosmeticos</legend>
+    <section oninput="calcularpreç();">
+                <div id="coluna">
+                    <h3 class="texto" >Nivea </h3>
+                    <picture class="foto1">
+                        <img src="fotos/top4.png" alt="" height=120px">
+                    </picture>
+                    <div class="informaçao">
+                        <ul>
+                            <li>250 ml</li>
+                            <li> $50  </li>
+                            <li>querem comprar</li>
+                        </ul>
+                    </div>
+                    <p>Quantidade<input type="number" name="nquant" id="iquant" min="0" max="7"  value="0" ></p>
+                    <p>Preço total <input type="number"  name="nprec" id="iprec" min="0"  max="10" value="0"></p>
+                    <img src="fotos/shopping-cart_770521.png" alt=""> <button class="botao">
+                        adicionar ao carinho
+                    </button>
+
+                </div>
+
+                <div id="coluna2">
+                    <h3 class="texto">Clere</h3>
+                    <picture class="foto1">
+                        <img src="fotos/man.png" alt="" height=120px>
+                    </picture>
+                    <div class="informaçao">
+                        <ul>
+                            <li>500 ml</li>
+                            <li>$ 100</li>
+                            <li>querem comprar</li>
+                        </ul>
+                    </div>
+                    <p>Quantidade<input type="number" name="nquant" min="0" max="7" id="iquant" value="0"></p>
+                    <p>Preço total <input type="number" id="iprec" min="0" max="10" value="0"></p>
+                    <img src="fotos/shopping-cart_770521.png" alt=""><button class="botao">
+                        adicionar ao carinho
+                    </button>
+                </div>
+
+                <div id="coluna3">
+                    <h3 class="texto">Men</h3>
+                    <picture class="foto1">
+                        <img src="fotos/man1.png" alt="" height=120px >
+                    </picture>
+                    <div class="informaçao">
+                        <ul>
+                            <li>500ml</li>
+                            <li>$ 125</li>
+                            <li>querem comprar</li>
+                        </ul>
+                    </div>
+                    <p>Quantidade<input type="number" name="" min="0" max="7" id="" value="0"></p>
+                    <p>Preço total <input type="number" min="0" max="10" value="0"></p>
+                    <img src="fotos/shopping-cart_770521.png" alt=""> <button class="botao">
+                        adicionar ao carinho
+                    </button>
+
+                </div>
+    </section>
+</fieldset>
+<fieldset>
+    <legend>Para Crianças</legend>
+<section oninput="calcularpreç();">
+            <div id="coluna">
+                <h3 class="texto" >Briquedos </h3>
+                <picture class="foto1">
+                    <img src="fotos/boneco1.png" alt="" height=120px">
+                </picture>
+                <div class="informaçao">
+                    <ul>
+                        <li>250 ml</li>
+                        <li> $50  </li>
+                        <li>querem comprar</li>
+                    </ul>
+                </div>
+                <p>Quantidade<input type="number" name="nquant" min="0" max="7" id="iquant" value="0"></p>
+                <p>Preço total <input type="number" name="nprec" id="iprec" min="0" max="10" value="0"></p>
+                <img src="fotos/shopping-cart_770521.png" alt=""> <button class="botao">
+                    adicionar ao carinho
+                </button>
+
+            </div>
+
+            <div id="coluna2">
+                <h3 class="texto">Cadeiras</h3>
+                <picture class="foto1">
+                    <img src="fotos/cadeira.png" alt="" height=120px>
+                </picture>
+                <div class="informaçao">
+                    <ul>
+                        <li>500 ml</li>
+                        <li>$ 100</li>
+                        <li>querem comprar</li>
+                    </ul>
+                </div>
+                <p>Quantidade<input type="number" name="" min="0" max="7" id="" value="0"></p>
+                <p>Preço total <input type="number" min="0" max="10" value="0"></p>
+                <img src="fotos/shopping-cart_770521.png" alt=""><button class="botao">
+                    adicionar ao carinho
+                </button>
+            </div>
+
+            <div id="coluna3">
+                <h3 class="texto">Kit de cores e lapís</h3>
+                <picture class="foto1">
+                    <img src="fotos/estojo.png" alt="" height=120px >
+                </picture>
+                <div class="informaçao">
+                    <ul>
+                        <li>500ml</li>
+                        <li>$ 125</li>
+                        <li>querem comprar</li>
+                    </ul>
+                </div>
+                <p>Quantidade<input type="number" name="" min="0" max="7" id="" value="0"></p>
+                <p>Preço total <input type="number" min="0" max="10" value="0"></p>
+                <img src="fotos/shopping-cart_770521.png" alt=""> <button class="botao">
+                    adicionar ao carinho
+                </button>
+            </div>
+</section>
+</fieldset>
+    
+    <footer id="rodape">
+        <p><a href="celesteimpula@gmail.com">celesteimpula@gmail.com </a><br>por  BennySA</p>
+    </footer>
+</body>
+</html>
